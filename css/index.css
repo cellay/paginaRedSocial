@@ -1,0 +1,74 @@
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="columna"]{
+  min-height: 50rem;
+ 
+}
+div[class*="bloque"]{
+  height: 25rem;
+  padding:0 !important;
+}
+
+#nuevaPub{
+	min-height: 7rem;
+}
+.pub{
+	min-height: 17rem;
+	padding: 2rem;
+}
+.logo{
+	width: 100px;
+	height: 80px;
+
+
+}
+
+.noticias{
+	min-height: 50rem;
+	padding: 0.5rem;
+	margin-top: 1rem;
+}
+
+.noticias h5{
+	font-size: 1rem !important;
+}
+#contLogo{
+	margin-bottom: 0;
+}
+#coleccion a p{
+	margin:0;
+}
+
+ .card-reveal p{
+ 	font-size: 0.5rem;
+ }
+
+ .card-content{
+ 	padding: 0 !important;
+ 
+ }
+
+ #coleccion2 li{
+ 	padding-left: 1rem !important;
+ 	padding-right: 0 !important;
+ }
+
+
+
+
+
+
+
+
+ @media (max-width: 500px){
+ 	
+ 	 .sinpadding{
+ 	padding: 0 !important;
+ }
+
+ #coleccion h5{
+ 	font-size: 0.8rem !important;
+ }
+
+  }

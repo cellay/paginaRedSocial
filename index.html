@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importar la fuente de los íconos de Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importar la hojas de estilos de materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Contenedores y Sistema de Rejilla</title>
+  </head>
+  <body>
+
+  <div class="container">
+    
+        <div class="row">
+          <div class="s12 m12 l12 col yellow accent-1 barra-superior valign-wrapper">
+            <div id="contLogo" class="col l6 m8 s12">
+              <div class="col l4 m4 s4 ">
+                  <img class="responsive-img" class="logo" src="img/logo2.png" alt="Logo">
+              </div>
+                <div class="input-field col l8 m8 s8 valign-wrapper">
+                
+                 <div class=" col l10 m10 s10">
+                    <input id="busqueda" type="text" placeholder="Buscar">
+                   
+                    <label for="busqueda"></label>
+                  </div>
+                   <div class="col l2 m2 s2 ">
+                    <i class="material-icons valign">search</i>
+                 </div>
+                </div>
+            </div>
+            <div id="btnBusq" class="col l4 m4 offset-l2 hide-on-small-only valign">
+               <a class="btn-floating blue small" href="#"><i class="material-icons">phonelink-setup</i></a>
+              <a class="btn-floating blue" href="#"><i class="material-icons">error_outline</i></a>
+              <a class="btn-floating blue" href="#"><i class="material-icons">lock</i></a>
+              
+            </div>
+          </div>
+          <div class="s2 m2 l2 col blue-grey lighten-5 columna-grupos push-s10">
+            <div id="coleccion" class="collection with-header center-align" >
+              <h5 class="sinpadding collection-header">Grupos</h5>
+              <a href="#" class="sinpadding collection-item"><img class="responsive-img" src="img/Js.png" alt=""><p class="hide-on-small-only blue-text text-darken2">2.150</p><p class="hide-on-small-only">Miembros</p></a>
+              <a href="#" class="sinpadding collection-item"><img class="responsive-img" src="img/Git.png" alt=""><p class="blue-text text-darken2 hide-on-small-only">1.150</p><p class="hide-on-small-only">Miembros</p></a>
+              <a href="#" class="sinpadding collection-item"><img class="responsive-img" src="img/Html.png" alt=""><p class="blue-text text-darken2 hide-on-small-only"><p class="hide-on-small-only">5.250</p><p class="hide-on-small-only"> Miembros</p></a>
+              <a href="#" class="sinpadding collection-item"><img class="responsive-img" src="img/Css.png" alt=""><p class="blue-text text-darken2 hide-on-small-only">9.228</p><p class="hide-on-small-only">Miembros</p></a>
+            </div>
+
+            <div class="fixed-action-btn hide-on-small-only" style="bottom: 45px; right: 90vw;">
+                <a class="btn-floating btn-large red">
+                  <i class="large material-icons">mode_edit</i>
+                </a>
+                <ul>
+                  <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                  <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+                  <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+                  <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="s10 m7 l7 col white columna-principal pull-s2 z-depth-1">
+            <div class="row">
+              <div class="s12 m12 l8 col white columna-publicaciones">
+                  <div id="nuevaPub" class="card  indigo lighten-5">
+                  <p>Escribe nueva publicación:</p>
+                  <textarea class="yellow accent-1" name="NuevPub" id="NuevaPub" cols="30" rows="10"></textarea>
+                    <a class="btn-floating grey darken-1 btn-small waves-effect" href="#"><i class="material-icons">code</i></a>
+                    <a class="btn-floating grey darken-1" href="#"><i class="material-icons">comment</i></a>
+                    <a class="btn-floating grey darken-1" href="#"><i class="material-icons">mic</i></a>
+
+                     <a class="right btn small grey darken-1 waves-effect hide-on-small-only" href="#"><i class="material-icons">done_all</i></a>
+                     <a class="right btn-floating small grey darken-1 waves-effect hide-on-med-and-up" href="#"><i class="material-icons">done_all</i></a>
+
+                    
+                  </div>
+                  <div class="pub card-image  indigo lighten-5 video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4_RWH3crjg" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div  class="pub card-content indigo lighten-5">
+                    <p class="flow-text">La habilidad para adquirir riqueza no es propiedad de unos pocos, al
+                    final todos podemos llegar a tenerla. Los requisitos básicos son: el
+                    deseo y tener el coraje suficiente para afrontar nuestros miedos. Es
+                    obvio que habrá retos y dificultades en el camino a dicha meta, pero
+                    una fuerte dosis de confianza en si mismo y una alta autoestima,
+                    serán las herramientas para conseguirlo</p>
+                    <blockquote>¿Y, qué puede un padre pobre decirle a su hijo sobre el
+                    dinero? Sencillamente, “continua en el colegio y estudia intensamente”. Kyosaky,Robert; Padre Rico, Padre Pobre</blockquote>
+                  </div>
+              </div>
+              <div class="l3 offset-l1 col white columna-news hide-on-med-and-down">
+               <div class="card noticias indigo lighten-5  ">
+                
+       
+               <h5 class= "card center-align">Últimas noticias</h5>
+                <div class="card  indigo lighten-5">
+                 <div class="card-img waves-effect waves-block">
+                      <img class="activator responsive-img" src="img/not3img.jpg" alt="Foto Celular">
+                    </div>
+                    <div class="card-content center-align">
+                       <span class="card-title activator grey-text text-darken-4"><h6 class="center-align"><strong>Uber acorralado por acoso, sexismo y litigios</strong>
+                      
+                    </div>
+                     <div class="card-reveal">
+                         <span class="card-title"><i class="material-icons right">close</i></span>
+                            <p> En el último escándalo, un responsable de Uber había obtenido el informe médico de una mujer violada en 2014 por un conductor de la empresa en Nueva Delhi.
+
+                            En el último escándalo, un responsable de Uber había obtenido el informe médico de una mujer violada en 2014 por un conductor de la empresa en Nueva Delhi y lo había incluso entregado al presidente del grupo Travis Kalanick, con el fin de desacreditar el testimonio de la víctima, según medios estadounidenses. 
+
+                            El atacante de la joven fue condenado a cadena perpetua el año siguiente de los hechos.
+                       </div>
+                    </div>
+                    <div class="card indigo lighten-5">
+                    <div class="card-img">
+                      <img class="activator responsive-img" src="img/not2img.jpg" alt="Foto Celular">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator"><h6 class="center-align"><strong>Linkedin es más que un sitio para buscar empleo: así ha sido su transforma-ción</strong></h6></span>
+                    
+                    </div>
+                    <div class="card-reveal">
+                    <span class="card-title"><i class="material-icons right">close</i></span>               
+                        <p> Antonio Chan habla del crecimiento de la plataforma en la región y en Colombia, así como de las nuevas herramientas del servicio, que lo impulsan a ser más que sólo un lugar para buscar trabajo.
+
+                        Antonio Chan define a Linkedin más como una plataforma que conecta a la gente con sus intereses profesionales e intelectuales que como un sitio exclusivamente para buscar trabajo..
+
+                        Chan, gerente de ventas de Linkedin para Latinoamérica, aporta evidencia para su conclusión: “El comienzo de la plataforma se basó en la búsqueda de oportunidades de empleo. Pero el sitio ha evolucionado mucho. Hoy es un punto de contacto para profesionales. Es el centro en donde las personas están buscando oportunidades de negocios, empleo y, sobre todo, contenido profesional. Por ejemplo, en promedio, se consume 15 veces más este tipo de publicaciones que las mismas ofertas de trabajo”. </p>
+
+                     </div>
+                    </div>
+                    <div class="card indigo lighten-5">
+                   
+                    <div class="card-img">
+                      <img class="activator responsive-img" src="img/not1img.jpg" alt="Foto Celular">
+                    </div>
+                    <div class="card-content">  
+                        <span class="card-title"></span><h6 class="center-align"><strong> Asegúrese de que su celular no esté entre los que quedarán sin WhatsApp</strong></h6>
+                        </span>
+                     </div>
+                       <div class="card-reveal">
+                       <span class="card-title"><i class="material-icons right">close</i></span>             
+                        <p> A partir del próximo 30 de junio varios smartphones quedarán sin WhatsApp, la famosa aplicación de mensajería instantánea, debido a una actualización. Los cambios causan la incompatibilidad entre la red social con equipos de sistemas operativos antiguos como Nokia y BlackBerry, los mismos que al iniciar WhatsApp, hace siete años, representaban el 70% del mercado que empezaba a utilizar la aplicación.
+
+                      Ahora el mercado lo ocupan, en un 99.5 %, los dispositivos de Google, Apple y Microsoft. Según un comunicado difundido por la red social, estos serían los sistemas operativos que dejarán de ser compatibles con la plataforma: BlackBerry y BlackBerry 10, Nokia S40, Nokia Symbian S60, Android 2.1 y Android 2.2, Windows Phone 7 y iPhone 3GS/iOS 6.
+
+                      Los creadores de WhatsApp también aseguraron que “estas plataformas han sido de gran importancia en nuestra historia, pero ya no cuentan con las capacidades necesarias para expandir las funciones de nuestra aplicación en el futuro".</p>
+                      </div>
+                    </div>
+
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="m3 l3 col white columna-chat hide-on-small-only">
+            <div class="row">
+              <div class="s12 col   bloque-feed">
+                <ul id="coleccion2" class="collection with-header ">
+                    <li class="collection-header red lighten-1 white-text"><h4>Actividades recientes</h4></li>
+                    <li class="collection-item red lighten-1 white-text"><i id="publicacion" class="material-icons ">invert_colors</i>Dj_Alvin - Publicación de artículo</li>
+                    <li class="collection-item red lighten-1 white-text"><i class="material-icons">polymer</i>Polymer-Conferencia</li>
+                    <li class="collection-item red lighten-1 white-text"><i class="material-icons">dialpad</i>Suzan-Publicacion de video</li>
+                    <li class="collection-item red lighten-1 white-text"><i class="material-icons">snooze</i>snooze-comentario</li>
+                </ul>
+            
+              </div>
+              <div class="s12 col grey lighten-1 bloque-chat">
+                <div class="collection with-header">
+                  <h4 class="collection-header">Bloque de chat</h4>
+                  <a href="#" class="collection-item"> 
+                    <div class="chip">
+                        <i class="material-icons">perm_identity</i>
+                        Julio Verne
+                    </div>
+                  </a>
+                <a href="#" class="collection-item"> 
+                    <div class="chip">
+                        <i class="material-icons">perm_identity</i>
+                        Valeria Maza
+                    </div>
+                </a>
+                <a href="#" class="collection-item"> 
+                    <div class="chip">
+                        <i class="material-icons">perm_identity</i>
+                        Angelina Jolie
+                    </div>
+                </a>
+                <a href="#" class="collection-item"> 
+                    <div class="chip">
+                        <i class="material-icons">perm_identity</i>
+                        Michael Jackson
+                    </div>
+                </a>
+                <a href="#" class="collection-item"> 
+                    <div class="chip">
+                        <i class="material-icons">perm_identity</i>
+                        Bill Gates
+                    </div>
+                </a>
+                </div>
+               </div>
+            </div>
+          </div>
+
+        </div>
+  
+</div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
